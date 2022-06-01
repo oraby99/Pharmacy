@@ -60,9 +60,9 @@
             <div class="container">
               <a class="navbar-brand" href="{{url('/home')}}"><span>ELEZAPY</span></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
-         
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <i class="fa fa-bars"></i>
+              </button>
+        <div class="collapse navbar-collapse " id="navbar-wd">
           <ul class="navbar-nav mr-auto">
         
           @auth
