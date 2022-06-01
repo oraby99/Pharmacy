@@ -58,7 +58,7 @@
                             <tr>
                                <td>{{$product->id}}</td>
                                 <td>{{$product->name}}</td>
-                                <td><img src="{{asset(str_replace('public/' , 'storage/' ,$product->img)) }}" style="width: 100px;height: 100px;"></td>
+                                <td><img src='/images/products/{{$product->img}}' style="width: 100px;height: 100px;"></td>
                                 <td> {{$product->cat}}</td>
                                 <td>{{$product->price}}</td>
                                 <td>{{$product->count}}</td>

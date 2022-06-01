@@ -42,7 +42,15 @@ class ProductController extends Controller
       'img'  => 'required | image '
     ]);
     $imgname = Storage::putFile("public/products",$data['img']);
-    $data['img'] = $imgname;
+    
+    $file = $request->file('img');
+    $extension = $file->getClientOriginalExtension(); // you can also use file name
+    $fileName = time().'.'.$extension;
+    $path = public_path().'/images/products/';
+    $uplaod = $file->move($path,$fileName);
+
+
+    $data['img'] = $fileName;
     Product::create($data);
     return redirect(url('/products'));
   }
