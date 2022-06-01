@@ -200,7 +200,7 @@
 
                     @foreach( $errors->all() as $error)
 
-                    <p> {{$error}} </p>
+                        <p style="color: red"> {{$error}} </p>
 
                     @endforeach
                     @endif
