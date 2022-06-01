@@ -64,32 +64,10 @@
     
     
 
-</script>
     <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js+bootstrap.min.js+main.js.pagespeed.jc.ShDXkdKWrZ.js"></script><script>eval(mod_pagespeed_H0qN4W9wXo);</script>
-    <script>eval(mod_pagespeed_WmiCx0VWp6);</script>
-    <script>eval(mod_pagespeed_JBM6ZoM8er);</script>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7080d759de77d785","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous">
-    </script>
-    <script src="stylesheet" href="{{ asset('js/index.js') }}"></script>
-    <script src="stylesheet" href="{{ asset('js/jquery.nicescroll.min.js') }}"></script>
-    <script src="stylesheet" href="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
-    <a href="#" id="scroll-to-top" class="new-btn-d br-2"><i class="fa fa-angle-up"></i></a>
     <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.pogo-slider.min.js"></script> 
-    <script src="js/slider-index.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/isotope.min.js"></script> 
-    <script src="js/images-loded.min.js"></script>  
-    <script src="js/custom.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
 
